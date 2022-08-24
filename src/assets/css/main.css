@@ -1,0 +1,145 @@
+/* overall style */
+/* let el-container fill all screen */
+#user-index .all-screen {
+	position: absolute;
+	/*Set the interior fill to 0 with no spacing between several layout elements*/
+	padding: 0px;
+	/*The outer spacing is set the same way*/
+	margin: 0px;
+	/*Set the height to 100%*/
+	height: 100%;
+	/* The width of the same setting is 100%*/
+	width: 100%;
+	bottom: 0;
+}
+/* overall style */
+
+/* Header style */
+/* bgd color */
+#user-index .all-screen .el-header {
+	position: relative;
+	background-color: #000;
+}
+
+/* improvement */
+#user-index .all-screen .el-header .dots {
+	position: absolute;
+	width: 100px;
+	/* border: #fff solid 1px; */
+	top: 15px;
+	left: 0px;
+}
+
+/* input box style */
+#user-index .all-screen .el-header .el-input {
+	/* position: absolute; */
+    top: 5px;
+	width: 500px;
+}
+/* set the input box height */
+#user-index .all-screen .el-header .el-input .el-input__inner {
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	top: 5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#user-index .all-screen .el-header .el-input .el-input__icon {
+	line-height: 30px;
+}
+
+/* User profile */
+#user-index .all-screen .el-header .el-dropdown {
+	/* 这个样式这样写并未生效，要在标签里面的style属性中写 */
+	/* display: inline-block; */
+	position: absolute !important;
+	right: 50px;
+	top: 0;
+	bottom: 0;
+	color: #fff !important;
+	height: 30px;
+	text-align: center;
+	width: 100px;
+    overflow: hidden;
+}
+
+#user-index .all-screen .el-header .el-dropdown .user-settings {
+	background-color: transparent;
+	border: none;
+	text-align: left;
+    overflow: hidden;
+}
+#user-index .all-screen .el-header .el-dropdown .user-settings span {
+    color: #fff;
+    position: absolute;
+    top: 7px;
+    padding-left: 5px;
+}
+
+#user-index .all-screen .el-header .el-dropdown .user-settings:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: none;
+}
+/* Header style */
+
+/* Menu style */
+/* 这里的el-menu是渲染之后的类名 */
+#user-index .all-screen .el-menu {
+	border: none;
+}
+/* Menu style */
+
+/* Aside style */
+#user-index .all-screen .el-aside {
+	background-color: #000;
+	height: 100%;
+}
+
+/* Mouse style  */
+#user-index .all-screen .el-menu .el-menu-item:hover {
+	/* 加 !important 提高优先级到最高 */
+	background-color: rgba(255, 255, 255, 0.3) !important;
+}
+/* Aside style */
+
+/* Footer style  */
+#user-index .all-screen .el-footer {
+	position: relative;
+}
+/* audio样式 */
+/* .user-index .all-screen .el-footer>audio {
+    position: absolute;
+    right: 0;
+} */
+/*  music playing section at the bottom style  */
+#user-index .all-screen .el-footer .song-info {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 250px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+}
+#user-index .all-screen .el-footer .song-info > img {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	/* margin-right: 5px; */
+}
+#user-index .all-screen .el-footer .song-info > div {
+	position: absolute;
+	left: 50px;
+	display: inline-block;
+	width: 200px;
+	line-height: 50px;
+	/* padding-left: 15px; */
+	overflow: hidden;
+}
+
+/* Footer style */
